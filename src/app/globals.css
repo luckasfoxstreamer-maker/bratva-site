@@ -1,0 +1,38 @@
+body {
+  background: #0d0d0d;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: crimson;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #141414;
+  padding: 20px;
+  border-radius: 10px;
+}
