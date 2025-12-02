@@ -12,6 +12,16 @@ export default function Navbar() {
         <Link href="/produtos">Armamentos</Link>
         <Link href="/sobre">Sobre</Link>
         <Link href="/pedido">Pedido</Link>
+        <Link href="/administracao">Administração</Link>
+        <Link href="/atuacao">Atuacao</Link>
+        <Link href="/diferenciais">Diferenciais</Link>
+        <Link href="/eventos">Eventos</Link>
+        <Link href="/hierarquia">Hierarquia</Link>
+        <Link href="/objetivos">Objetivos</Link>
+        <Link href="/projeto">Projeto</Link>
+        <Link href="/recrutamento">Recrutamento</Link>
+        <Link href="/regras">Regras</Link>
+        <Link href="/relacoes">Relacoes</Link>
       </div>
     </nav>
   );
